@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h1>Calculation</h1>
+<style>
+  body{
+    background-color: aqua;
+  }
+</style>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+
+<script>
+var x = prompt("Enter x")
+var y = prompt("Enter Y");
+var a = parseInt(x)
+var b = parseInt(y)
+var p = a + b;
+var q = a - b;
+var r = a * b;
+var s = a / b;
+document.getElementById("demo").innerHTML = "The addition of two number is: " + p;
+document.getElementById("demo").style.border = "thick solid #0000FF";
+document.getElementById("demo1").innerHTML = "The subraction of two number is: " + q;
+document.getElementById("demo1").style.border = "thick solid #0000FF";
+document.getElementById("demo2").innerHTML = "The multiplication of two number is: " + r;
+document.getElementById("demo2").style.border = "thick solid #0000FF";
+document.getElementById("demo3").innerHTML = "The division of two number is: " + s;
+document.getElementById("demo3").style.border = "thick solid #0000FF";
+</script>
+
+</body>
+</html>

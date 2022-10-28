@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    
+}
+body{
+
+    background-image: url("https://thumbs.dreamstime.com/z/pink-flower-wallpaper-image-jpg-rajasthan-click-kanwarpal-winter-155651444.jpg"); 
+}
+.row{
+
+    width: 400px;
+    height: 400px;
+    margin: 70px auto;
+    border: 3px solid rgb(193, 42, 42);
+    background-color: #e0c1df;
+}
+.form1{
+    text-align: center;
+}
+input[type="text"]{
+    width: 50%;
+    margin-right: 20px;
+    border: 2px gray solid;
+}
+
